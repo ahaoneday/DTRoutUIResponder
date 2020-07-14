@@ -7,6 +7,7 @@
 //
 
 #import "MPViewController.h"
+#import "UIResponder+Router.h"
 
 @interface MPViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)routerEventWithName:(NSString *)eventName userInfo:(NSDictionary *)userInfo{
+    
 }
 
 - (void)didReceiveMemoryWarning
