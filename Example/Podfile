@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DTRoutCategry_Example' do
+  pod 'DTRoutCategry', :path => '../'
+
+  target 'DTRoutCategry_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
